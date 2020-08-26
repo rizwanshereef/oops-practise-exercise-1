@@ -1,6 +1,6 @@
 package com.stackroute;
 
-public class Main {
+public class TestAverage {
 
     public static void main(String[] args) {
         Average av = new Average();
