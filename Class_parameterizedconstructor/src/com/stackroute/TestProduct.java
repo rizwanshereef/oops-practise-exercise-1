@@ -1,6 +1,6 @@
 package com.stackroute;
 
-public class Main {
+public class TestProduct {
 
     public static void main(String[] args) {
         //creating object using parameterized constructor
