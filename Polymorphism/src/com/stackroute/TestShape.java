@@ -4,22 +4,22 @@ public class TestShape {
 
     public static void main(String[] args) {
     	// Testing Polymorphism
-    	Shape s;
+    	Shape shp;
 
-		s= new Shape();
-		s.draw();
-		s.erase();
+		shp= new Shape();
+		shp.draw();
+		shp.erase();
 
-		s = new Circle();
-		s.draw();
-		s.erase();
+		shp = new Circle();
+		shp.draw();
+		shp.erase();
 
-		s = new Shape();
-		s.draw();
-		s.erase();
+		shp = new Shape();
+		shp.draw();
+		shp.erase();
 
-		s= new Square();
-		s.draw();
-		s.erase();
+		shp= new Square();
+		shp.draw();
+		shp.erase();
     }
 }

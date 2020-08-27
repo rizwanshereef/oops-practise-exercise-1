@@ -5,12 +5,12 @@ import java.util.Scanner;
 public class TestAddDistance {
 
     public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         /* Input values.*/
         System.out.println("Enter the distance in Inch");
-        int inch = s.nextInt();
+        int inch = scan.nextInt();
         System.out.println("Enter the distance in Feet");
-        int feet = s.nextInt();
+        int feet = scan.nextInt();
 
         /* Creating object of AddDistance. */
         AddDistance add = new AddDistance(inch,feet);
